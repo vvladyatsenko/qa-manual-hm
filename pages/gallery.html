@@ -3,35 +3,41 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../style.css" />
     <title>Gallery</title>
   </head>
-  <body>
-    <h1>Gallery</h1>
-    <p>Welcome to the gallery page.</p>
-    <ul>
-      <li>
+  <body id="gallery_page">
+    <h1 class="gallery_page--title">Gallery</h1>
+    <p class="gallery_page--text">Welcome to the gallery page.</p>
+
+    <ul class="gallery_page--list">
+      <li class="gallery_page--item">
         <img
+          class="gallery_page--image"
           width="200px"
           src="/pages/photo/MCDAVEN_EC254.webp"
           alt="Photo 1"
         />
       </li>
-      <li>
+      <li class="gallery_page--item">
         <img
+          class="gallery_page--image"
           width="200px"
           src="/pages/photo/MV5BNzg1MTUyNDYxOF5BMl5BanBnXkFtZTgwNTQ4MTE2MjE@._V1_.jpg"
           alt="Photo 2"
         />
       </li>
-      <li>
+      <li class="gallery_page--item">
         <img
+          class="gallery_page--image"
           width="200px"
           src="/pages/photo/robert-downey-jr-wife-embed-4.webp"
           alt="Photo 3"
         />
       </li>
-      <li>
+      <li class="gallery_page--item">
         <img
+          class="gallery_page--image"
           width="200px"
           src="/pages/photo/robert-downey-jr-and-susan-downey-at-the-81st-golden-globe-news-photo-1709744383.avif"
           alt="Photo 4"
@@ -39,10 +45,12 @@
       </li>
     </ul>
 
-    <footer>
-      <a href="/index.html"><strong>Home</strong></a>
+    <footer class="gallery_page--footer">
+      <a class="gallery_page--link" href="/index.html"><strong>Home</strong></a>
       <br />
-      <a href="/pages/contact.html"><strong>Contact</strong></a>
+      <a class="gallery_page--link" href="/pages/contact.html"
+        ><strong>Contact</strong></a
+      >
     </footer>
   </body>
 </html>

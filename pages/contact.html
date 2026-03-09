@@ -3,20 +3,28 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../style.css" />
     <title>Contact</title>
   </head>
-  <body>
-    <h1>Contact</h1>
+  <body id="contact_page">
+    <h1 class="contact_page--title">Contact</h1>
 
-    <p>Fill out the small contact form below.</p>
+    <p class="contact_page--text">Fill out the small contact form below.</p>
 
-    <form>
-      <label for="name">Name:</label>
-      <input type="text" id="name" name="name" placeholder="Enter your name" />
+    <form class="contact_page--form">
+      <label class="contact_page--label" for="name">Name:</label>
+      <input
+        class="contact_page--input"
+        type="text"
+        id="name"
+        name="name"
+        placeholder="Enter your name"
+      />
       <br /><br />
 
-      <label for="email">Email:</label>
+      <label class="contact_page--label" for="email">Email:</label>
       <input
+        class="contact_page--input"
         type="email"
         id="email"
         name="email"
@@ -24,8 +32,9 @@
       />
       <br /><br />
 
-      <label for="message">Message:</label>
+      <label class="contact_page--label" for="message">Message:</label>
       <input
+        class="contact_page--input"
         type="text"
         id="message"
         name="message"
@@ -33,34 +42,38 @@
       />
       <br /><br />
 
-      <button type="submit">Send</button>
+      <button class="contact_page--button" type="submit">Send</button>
     </form>
 
     <br />
 
-    <table border="1">
-      <tr>
-        <th>Name</th>
-        <th>Email</th>
-        <th>Message</th>
+    <table class="contact_page--table" border="1">
+      <tr class="contact_page--table_row">
+        <th class="contact_page--table_head">Name</th>
+        <th class="contact_page--table_head">Email</th>
+        <th class="contact_page--table_head">Message</th>
       </tr>
-      <tr>
-        <td>John Doe</td>
-        <td>john@example.com</td>
-        <td>Hello, I would like to contact you.</td>
+      <tr class="contact_page--table_row">
+        <td class="contact_page--table_data">John Doe</td>
+        <td class="contact_page--table_data">john@example.com</td>
+        <td class="contact_page--table_data">
+          Hello, I would like to contact you.
+        </td>
       </tr>
-      <tr>
-        <td>Jane Smith</td>
-        <td>jane@example.com</td>
-        <td>I really like your website.</td>
+      <tr class="contact_page--table_row">
+        <td class="contact_page--table_data">Jane Smith</td>
+        <td class="contact_page--table_data">jane@example.com</td>
+        <td class="contact_page--table_data">I really like your website.</td>
       </tr>
     </table>
 
-    <footer>
+    <footer class="contact_page--footer">
       <br />
-      <a href="/index.html"><strong>Home</strong></a>
+      <a class="contact_page--link" href="/index.html"><strong>Home</strong></a>
       <br />
-      <a href="/pages/gallery.html"><strong>Gallery</strong></a>
+      <a class="contact_page--link" href="/pages/gallery.html"
+        ><strong>Gallery</strong></a
+      >
     </footer>
   </body>
 </html>
